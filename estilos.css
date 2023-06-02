@@ -1,0 +1,99 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: white;   
+    background-image: url(imagens/fundo-f1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 55%;
+    padding-bottom: 1px;
+}
+
+header {
+    height: 150px;
+    width: 98%;
+    background-position: center;
+    background-image: url(imagens/titulo-f1.jpg);
+    background-size: 100% 90%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    border-left: 10px;
+    border-bottom: 2px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-color: gray;
+    border-bottom-color: gray;
+    padding: 5px;
+    background-image: url(imagens/bandeira1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 97%;
+    margin: auto;
+}
+
+ul, ol {
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 10px;
+    text-indent: 10%;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+table {
+    margin: 10px;
+    width: 80%;
+}
+
+article {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 75px;
+    width: 99%;
+}
+
+td {
+    border-bottom: 1px;
+    border-bottom-color: gray;
+    border-bottom-style: dotted;
+    height: 25px;
+}
+
+.pilotos {
+    width: 60%;
+}
